@@ -1,6 +1,5 @@
 package DSA.Arrays.Easy;
 
-import java.util.Scanner;
 
 public class second_largest {
     public static void main(String[] args) {
@@ -11,14 +10,14 @@ public class second_largest {
     public static int secondLargestElement(int[] nums) {
         int largest=nums[0];
         int secondlargest=Integer.MIN_VALUE;
-        for(int i=0;i<nums.length;i++){
-            if(nums[i]>=largest){
-                largest=nums[i];
+        for (int num : nums) {
+            if (num >= largest) {
+                largest = num;
             }
         }
-        for(int j=0;j<nums.length;j++){
-            if(nums[j]<largest && nums[j]>secondlargest){
-                secondlargest=nums[j];
+        for (int num : nums) {
+            if (num < largest && num > secondlargest) {
+                secondlargest = num;
             }
         }
         if(secondlargest==Integer.MIN_VALUE){
