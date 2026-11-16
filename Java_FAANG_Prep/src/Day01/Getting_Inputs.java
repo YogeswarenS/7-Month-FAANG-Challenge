@@ -24,5 +24,6 @@ public class Getting_Inputs {
     System.out.println("Gender: " + gender);
     System.out.println("Age: " + age);
     System.out.println("CGPA: " + cgpa);
+    sc.close(); // closing the scanner object to avoid memory leak
 }
 }

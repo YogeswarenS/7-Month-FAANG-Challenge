@@ -11,7 +11,7 @@ public class star_pattern2 {
                 System.out.print("* ");
             }
             System.out.println();
-        }
+        }sc.close();
     }
 }
 

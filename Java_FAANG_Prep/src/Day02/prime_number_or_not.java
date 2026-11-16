@@ -23,6 +23,6 @@ public class prime_number_or_not {
         }
         else{
             System.out.println("It's not a prime number");
-        }
+        }sc.close();
     }
 }

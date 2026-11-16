@@ -11,6 +11,7 @@ public class do_while_loop {
             System.out.print(i+" ");
             i++;
         }while(i<=n);
+        sc.close();
 }}
 
 // use when u need the body to be executed at least once without checking condition

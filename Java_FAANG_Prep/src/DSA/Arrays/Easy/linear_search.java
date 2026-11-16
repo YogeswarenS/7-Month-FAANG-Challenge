@@ -10,6 +10,7 @@ public class linear_search {
         int target=sc.nextInt();
         int result=linearsearch(target,arr);
         System.out.println("index :"+result);
+        sc.close();
     }
     public static int linearsearch(int target,int[] arr){
         for(int i=0;i<arr.length;i++){

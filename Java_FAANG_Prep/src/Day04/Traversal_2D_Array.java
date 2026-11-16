@@ -30,6 +30,6 @@ public class Traversal_2D_Array {
         System.out.println("Output: ");
         for(int[] nums:matrix){
             System.out.println(Arrays.toString(nums));
-        }
+        }in.close();
     }
 }

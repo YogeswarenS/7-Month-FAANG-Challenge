@@ -9,6 +9,7 @@ public class if_else_practice {
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter a Year :");
         int year= sc.nextInt();
+        sc.close();
 
         if (year%4==0 || year%400==0){
             System.out.println("It's a Leap Year");}

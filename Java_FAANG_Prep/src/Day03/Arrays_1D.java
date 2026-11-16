@@ -13,5 +13,6 @@ public class Arrays_1D {
             arr[i]=sc.nextInt(); // getting inputs
         }
         System.out.println(Arrays.toString(arr)); // prints all element in list
+        sc.close();
     }
 }

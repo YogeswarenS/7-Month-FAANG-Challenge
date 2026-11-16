@@ -8,6 +8,7 @@ public class Function_assignment_Factorial {
         int num=sc.nextInt();
         int fact=factorial(num);
         System.out.println(fact);
+        sc.close();
     }
     static int factorial(int num){
         int fact=1;

@@ -1,7 +1,5 @@
 package Day01;
 
-import java.sql.SQLOutput;
-
 public class Data_types {
     public static void main(String[] args){
 
@@ -30,5 +28,14 @@ public class Data_types {
 
         System.out.println("Number :"+ a);
         System.out.println(" third Number :"+ arr[2]);
+        System.out.println("Name :"+ name[2]);
+        System.out.println("String :"+ str);
+        System.out.println("Boolean :"+ data);
+        System.out.println("Byte :"+ temp);
+        System.out.println("Short :"+ medium);
+        System.out.println("Long :"+ verylarge);
+        System.out.println("Float :"+ num);
+        System.out.println("Double :"+ biggy);
+        System.out.println("Character :"+ alphabet);
     }
 }

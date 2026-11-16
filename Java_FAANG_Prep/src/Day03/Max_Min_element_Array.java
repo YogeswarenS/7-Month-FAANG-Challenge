@@ -1,5 +1,4 @@
 package Day03;
-import java.util.*;
 
 public class Max_Min_element_Array {
     public static void main(String[] args) {

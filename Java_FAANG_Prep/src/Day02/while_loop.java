@@ -10,7 +10,7 @@ public class while_loop {
         while(i<=n){
             System.out.print(i+" ");
             i++;
-        }
+        }sc.close();
     }
 }
 

@@ -54,7 +54,7 @@ public class spiral_Matrix {
                 }
                 left++;
             }
-        }
+        } in.close();
     }
 }
 
